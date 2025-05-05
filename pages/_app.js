@@ -1,4 +1,7 @@
 import "@/styles/globals.css";
+import '../styles/globals.css' // ✅ Faqat shu yerda bo‘lishi kerak
+
+
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Axios from "axios";
